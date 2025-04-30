@@ -1,0 +1,21 @@
+import numpy as np
+
+x = [1, 5, 4, 3]
+minimum = np.min(x)
+maximum = np.max(x)
+sq = np.sqrt(x)
+x2 = x[2]**3
+xx = x**2 
+    
+print(minimum)
+print(maximum)
+
+%%% matlab 
+min(x)
+disp(x)
+x = [1, 5, 4, 3]; 
+minimum = min(a)
+maximum = max(a)
+sq = sqrt(a)
+x2 = x(2)^3;
+xx = x.^2;
