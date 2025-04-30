@@ -1,0 +1,16 @@
+def fcn1(x1, x2) : 
+    x1 = float(input("x1 = "))
+    x2 = float(input("x2 = "))
+    me = (x1+x2) / 2
+    print(f"mean = {me}")
+    return me 
+    fcn1()
+
+    # in matlab 
+    function me = fcn1(x1, x2) 
+    x1 = input("x1 = ");
+    x2 = input("x2 = ");
+    me = (x1+x2) / 2; 
+    fprintf("me = %d", me);
+    disp(me)
+    
