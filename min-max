@@ -9,7 +9,14 @@ xx = x**2
     
 print(minimum)
 print(maximum)
-
+%%
+import math 
+pinum = math.pi
+print(pinum)
+%%
+c = 'g'
+print("ASCII value of c is: ", ord(c))
+%%
 %%% matlab 
 min(x)
 disp(x)
@@ -19,3 +26,32 @@ maximum = max(a)
 sq = sqrt(a)
 x2 = x(2)^3;
 xx = x.^2;
+%%
+for i  = 3 : 6
+fprintf("%d ", i)
+end
+%%
+for i in range(3, 6+1) : 
+    print(i)
+%%
+for i in range(3, 6+1) : 
+    print(i)    
+    print(5 % 2 == 0)
+%%
+a = [1, 6, 2, 5, 3, 4]
+asum = sum(a)
+acumsum = cumsum(a)
+fprintf("%d", asum)
+disp(acumsum)
+%%
+import numpy as np
+a = [1, 6, 2, 5, 3, 4]
+asum = sum(a)
+acumsum = np.cumsum(a)
+print(asum)
+print(acumsum)
+%%
+
+
+
+
