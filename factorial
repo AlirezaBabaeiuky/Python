@@ -4,3 +4,11 @@ fac = 1
 for i in range(1, x+1):
     fac = fac * i
 print(fac)
+
+# matlab code: 
+# fac  =1; % init to 1 
+# for i = 1 : 3 
+# fac = fac * i ; 
+# end
+# fprintf("fac = %d", fac)
+# disp(fac)
