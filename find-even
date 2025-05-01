@@ -16,8 +16,14 @@ n = len(a)
 for i in range(0, n): 
     if a[i] > 0 & a[i] %2 == 0:
         print(a[i])
-#
+# matlab 
+for i = 1 : n 
+if a(i) > 0 & mod(a(i), 2) ==0  
+disp(a(i))
+end
+end
 
+# 
 
 
 
