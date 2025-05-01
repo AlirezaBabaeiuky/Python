@@ -24,6 +24,11 @@ end
 end
 
 # 
-
+a = [2, 2, 5, 3]
+print(a.count(1))
+# matlab
+a = []...
+[val, idx] = find(a == 1)
+# 
 
 
