@@ -1,0 +1,24 @@
+import numpy as np
+print("Try programiz.pro")
+mat1 = np.array([[1, 7], [2, 6]])
+column = mat1[: , 1]
+print(column)
+print(len(mat1))
+mat1size = mat1.shape
+print(mat1size)
+
+%%%###///
+print("User needs to provide array here: ")
+arr = [0] * 3  # Pre-allocate an array of 3 elements - init 
+
+for i in range(0, 3):
+    arr[i] = input("arr = ")
+print(arr)
+print(arr[2])
+s = len(arr)
+print(s)
+
+## matlab code to get array from user via for loop 
+for i = 1 : 3 
+arr(i) = input("arr = ")
+end
