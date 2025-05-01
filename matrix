@@ -36,3 +36,20 @@ print(mat1)
 print(mat2)
 mat3 = mat1@mat2
 print(mat3)
+#
+import numpy as np
+print("Try programiz.pro")
+mat1 = np.array([[1, 3], [5, 7]])
+mat2 = np.array([[1, 0], [0, 1]])
+mat3  =mat1@mat2
+mat4 = mat1 + mat2
+print(mat1)
+print(mat2)
+print(mat3)
+print(mat4)
+mat1T = mat1.mat1T
+print(mat1T)
+mat1inv = np.linalg.inv(mat1A)
+print(mat1inv)
+
+#
