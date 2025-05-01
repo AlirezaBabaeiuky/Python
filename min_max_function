@@ -17,6 +17,15 @@ arr = [10, 324, 45, 90, 9808]
 n = len(arr)
 Ans = largest(arr, n)
 print("Largest in given array ", Ans)  
+## or do the folowig and do sort 
+print("Try programiz.pro")
+arr1 = [1, 8, 6, 3, 5]
+print(arr1)
+arr1.sort()
+print("sorted arr1", arr1)
+n = len(arr1)
+print(arr1[0], arr1[n-1])
+
     ## note you have built-in min and max functions in python like matlab to find the min and max ... in an array
 # sort in matlab we have built-in: sort(arr1) 
 in c we do not have string keyword as data type however we do in cpp:
