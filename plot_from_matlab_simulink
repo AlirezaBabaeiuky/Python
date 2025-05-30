@@ -1,0 +1,22 @@
+
+import scipy.io
+import matplotlib.pyplot as plt
+
+# Load the .mat file
+data = scipy.io.loadmat('Data.mat')
+
+# Extract input and output data
+input_time = data['Data']['input']['Time'][0][0].flatten()
+input_data = data['Data']['input']['Data'][0][0].flatten()
+output_time = data['Data']['output']['Time'][0][0].flatten()
+output_data = data['Data']['output']['Data'][0][0].flatten()
+
+# Plot
+plt.figure(1)
+plt.plot(input_time, input_data, 'b', linewidth=1.5, label='sine')
+plt.plot(output_time, output_data, 'r', linewidth=1.5, label='second-order system response')
+plt.grid(True)
+plt.legend()
+plt.xlim(input_time.min(), input_time.max())
+plt.ylim(min(input_data.min(), output_data.min()), max(input_data.max(), output_data.max()))
+plt.show()
